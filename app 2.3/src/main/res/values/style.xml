@@ -1,0 +1,28 @@
+<resources>
+	<style name="t">
+        <item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+		
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+
+    </style>
+
+	<style name="w">
+        <item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:colorBackgroundCacheHint">@null</item>
+		<item name="android:windowShowWallpaper">true</item>
+
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+
+    </style>
+
+	<style name="w.f">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+	<style name="Animation" />
+</resources>

